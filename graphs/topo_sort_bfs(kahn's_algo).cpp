@@ -17,7 +17,7 @@ void solve()
     cin>>n>>m;
 
     vector<vector<int>> adj(n+1);
-    vector<int> indegree(n+1);
+    vector<int> indegree(n+1,0);
 
     for (int i = 0; i < m; i++)
     {
